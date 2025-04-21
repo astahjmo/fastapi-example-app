@@ -11,6 +11,6 @@ async def read_root():
 @app.get("/health")
 async def health_check():
     """Basic health check."""
-    return {"status": "healthy"}
+    return {"status": "healthyy"}
 
 # If running directly using uvicorn: uvicorn main:app --host 0.0.0.0 --port 8000
